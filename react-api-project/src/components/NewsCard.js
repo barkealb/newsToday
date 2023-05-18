@@ -2,7 +2,6 @@ import React from 'react'
 
 
 function NewsCard(props) {
-  console.log(props)
   return (
     <div className='news-wrapper'>
       <div className='news-container' key={props.id}>
